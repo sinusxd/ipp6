@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class RecordService {
-  private apiUrl = 'http://http://89.169.166.66:8080/api/records';
+  private apiUrl = 'http://89.169.166.66:8080/api/records';
 
   constructor(private http: HttpClient) {}
 
