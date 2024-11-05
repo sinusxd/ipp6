@@ -1,0 +1,16 @@
+<div>
+  <h2>Add Record</h2>
+  <form (submit)="addRecord()">
+    <label>
+      Title:
+      <input [(ngModel)]="title" name="title">
+    </label>
+    <br>
+    <label>
+      Content:
+      <textarea [(ngModel)]="content" name="content"></textarea>
+    </label>
+    <br>
+    <button type="submit">Add Record</button>
+  </form>
+</div>

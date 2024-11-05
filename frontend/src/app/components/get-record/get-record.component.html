@@ -1,0 +1,9 @@
+<div>
+  <h2>Get Record by ID</h2>
+  <input [(ngModel)]="recordId" placeholder="Enter Record ID" name="recordId">
+  <button (click)="getRecord()">Get Record</button>
+  <div *ngIf="record">
+    <h3>{{ record.title }}</h3>
+    <p>{{ record.content }}</p>
+  </div>
+</div>
